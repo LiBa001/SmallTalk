@@ -1,1 +1,2 @@
 # SmallTalk
+Little Discord Chatbot
