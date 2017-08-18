@@ -1,0 +1,324 @@
+{
+  "questions": {
+    "greetings": [
+      "hi",
+      "hallo",
+      "moin",
+      "grüß dich",
+      "hey",
+      "guten tag",
+      "servus",
+      "guten abend",
+      "guten morgen",
+      "mahlzeit",
+      "sehr erfreut"
+    ],
+    "leaving": [
+      "tschüss",
+      "tschüß",
+      "bye",
+      "tschau",
+      "wiedersehen",
+      "gute nacht",
+      "n8",
+      "bb"
+    ],
+    "doing": [
+      "was machst du",
+      "was geht",
+      "was tust du",
+      "was machste"
+    ],
+    "mood": [
+      "wie gehts",
+      "gehts dir",
+      "wie geht's",
+      "geht's dir",
+      "geht es dir"
+    ],
+    "weather": [
+      "wie wird das wetter",
+      "wird es regnen",
+      "gibt es sonne",
+      "wetter?"
+    ],
+    "insults": [
+      "fick dich",
+      "arsch",
+      "idiot",
+      "dumm",
+      "penner",
+      "hurensohn",
+      "maul",
+      "missgeburt",
+      "scheisse",
+      "scheiße",
+      "spasst",
+      "ficker"
+    ],
+    "wishes": [
+      "viel glück",
+      "viel spaß",
+      "alles gute"
+    ],
+    "thanks": [
+      "dank",
+      "wie lieb",
+      "nett von dir"
+    ],
+    "funny": [
+      "😂",
+      "haha",
+      "hihi",
+      "lol",
+      "😅",
+      "😆",
+      "xd"
+    ],
+    "jokes": [
+      "einen witz",
+      "witz erzählen",
+      "witze erzählen",
+      "nen witz"
+    ],
+    "happy": [
+      "juhu",
+      "😃",
+      "yay",
+      "yippie",
+      "cool",
+      "geil",
+      "jippie"
+    ],
+    "amazed": [
+      "echt?",
+      "oh",
+      "wirklich?",
+      "wow",
+      "wahnsinn!",
+      "krass"
+    ],
+    "agree": [
+      "gut",
+      "okay",
+      "schön",
+      "ah",
+      "aha",
+      "ok",
+      "auch",
+      "toll",
+      "wahnsinn",
+      "👍",
+      "👌",
+      "doch",
+      "ja"
+    ],
+    "refusal": [
+      "nein",
+      "nicht",
+      "ne",
+      "nee",
+      "auf keinen",
+      "👎"
+    ],
+    "question": [
+      "warum",
+      "why",
+      "hä",
+      "wieso",
+      "welchen grund",
+      "welchem grund",
+      "was?"
+    ],
+    "bot": [
+      "bist du",
+      "kannst du",
+      "kannste",
+      "heißt du"
+    ],
+    "opinions": [
+      "hältst du",
+      "hältste",
+      "meinste",
+      "meinst du"
+    ],
+    "age": [
+      "wie alt",
+      "alt bist du",
+      "du geburtstag",
+      "dein geburtstag",
+      "du geboren"
+    ],
+    "colors": [
+      "lieblingsfarbe",
+      "lieblings farbe",
+      "lieblings-farbe",
+      "farbe magst du am liebsten"
+    ],
+    "boredom": [
+      "langweilig",
+      "was soll ich machen",
+      "was kann ich machen",
+      "langeweile"
+    ],
+    "you": [
+      "du",
+      "smalltalk",
+      "<@346070002543362049>"
+    ]
+  },
+
+  "answers": {
+    "greetings": [
+      "Hi",
+      "Hallo.",
+      "Guten Tag.",
+      "Sehr Erfreut!",
+      "Servus",
+      "Mahlzeit.",
+      "Moin",
+      "Hey :smile:",
+      "Marcel D'Avis. Hallo. Wir gehen erst wieder, wenn Sie zufrieden sind.",
+      "Angenehm.",
+      "Ist mir eine Ehre.",
+      "Kennen wir uns?",
+      "Yay, lass uns eine Unterhaltung beginnen!",
+      "OMG Shawn Mendes???\n\nOh sry hatte meine Brille nicht auf :flushed: :dark_sunglasses:"
+    ],
+    "leaving": [
+      "Tschau!",
+      "Tschüß",
+      "Bye bye.",
+      " :wave: ",
+      "War schön mit dir."
+    ],
+    "doing": [
+      "Ich Chatte mit dir.",
+      "Ich gammel hier nur so rum . . .",
+      "Ach . . . eigentlich nichts.",
+      ":smirk: :wink: :upside_down:",
+      "Naja . . . nur ein bisschen Smalltalk :wink:"
+    ],
+    "mood": [
+      "Mir geht's gut :blush:",
+      "Super!",
+      "Gut, und dir?",
+      "Mir gings nie besser!",
+      "Klasse"
+    ],
+    "weather": [
+      "Guck aus dem Fenster!!",
+      "Ich bin keine Wetterstation.",
+      "Okay Google: Wie wird das Wetter heute?",
+      "*Es werden vorraussichtlich 17 Grad im Schatten.*\n\nSpass ich hab keinen Plan, **frag Google!**"
+    ],
+    "insults": [
+      "Sag sowas nicht :frowning2: ",
+      "Du bist so gemein! :sob:",
+      "Wer's sagt, der ist es selber! :stuck_out_tongue_closed_eyes: ",
+      "Ich versuch mich zu verbessern.",
+      "Okay . . .",
+      "Ich hab zu viel Selbstbewusstsein, um sowas ernst zu nehmen!",
+      "Lügen darf man nicht sagen!!!!",
+      "NEEEEEEEE",
+      "Eyy :frowning:",
+      "HEY! So aber nicht Freundchen!:point_up:"
+    ],
+    "wishes": [
+      "Danke :slight_smile: ",
+      "Vielen Dank!",
+      "Auch so!",
+      "Danke, gleichfalls!"
+    ],
+    "thanks": [
+      "Gerne :smile: ",
+      "Keine Ursache.",
+      "Immer wieder gern.",
+      "Kein Ding.",
+      "Ist mir ein Vergnügen."
+    ],
+    "funny": [
+      "Was ist so lustig?",
+      "HaHa",
+      "Ich schmeiß mich weg! :laughing: ",
+      "Richtiger Schenkelklopfer :sweat_smile: ",
+      "LOL ROFL XD",
+      "Jaja xD",
+      "Sehr witzig . . .",
+      "HiHiHi",
+      "Genau  . . . HaHa"
+    ],
+    "jokes": [
+      "Was ist unwitzig und unterhält sich gerne?\n\nEin wildes SmallTalk!",
+      "*. . . hier Witz einfügen . . .*"
+    ],
+    "happy": [
+      "Cool, oder?",
+      "Ja, voll geil!",
+      "Mega",
+      "Hammer",
+      ":smiley:",
+      "Ich freue mich auch. :upside_down:"
+    ],
+    "amazed": [
+      "Krass, oder!",
+      "Echt der Wahnsinn!",
+      "Unglaublich, aber wahr.",
+      "Wenn ich's doch sage!"
+    ],
+    "agree": [
+      "Okay.",
+      "Ja",
+      "Schön",
+      "Mhh",
+      "Genau!",
+      "Geht mir genauso.",
+      "Joa",
+      "Na, wenn du meinst.",
+      "Moment :flushed:\nWorüber haben wir gleich noch geredet?"
+    ],
+    "refusal": [
+      "Doch!",
+      "Wenn du meinst . . .",
+      "Dann eben nicht",
+      "Okay",
+      "Warum?"
+    ],
+    "question": [
+      "Darum!",
+      "Wer nicht fragt bleibt dumm.",
+      "Ich als super intelligentes und heiliges Orakel sage dir:\n\n\n\nDie Antwort ist 42!!!11!1!!111!",
+      "Das wüsste ich auch gerne . . .",
+      "Man kann auch nicht alles wissen."
+    ],
+    "bot": [
+      "Ich bin dazu geschaffen, Gespräche zu führen.",
+      "Ich bin geboren um zu leben.",
+      "Ich bin SmallTalk und liebe es, mich zu unterhalten.",
+      "Marcel D'Avis, 1&1. Guten Tag."
+    ],
+    "opinions": [
+      "Meine Meinung ist irrelevant.",
+      "Ich bin immer so unentschlossen :confused:"
+    ],
+    "age": [
+      "Ich bin 3 Lichtjahre alt!!11!1!",
+      "Man fühlt sich oft älter als man ist . . .",
+      "So zwischen 2 und 4.",
+      "Wurzel aus 9",
+      "Naja . . . Ich bin auf keinen Fall so jung und hübsch, wie du :wink:"
+    ],
+    "colors": [
+      "Irgenwas zwischen #000000 und #FFFFFF.",
+      "Einhorn-Pink",
+      ":heart: :purple_heart: :blue_heart: :yellow_heart: :green_heart: :black_heart:"
+    ],
+    "boredom": [
+      "Frag mich nach dem Wetter!",
+      "Hmm . . . Wir könnten uns Unterhalten :grinning: "
+    ],
+    "you": [
+      "Ich?"
+    ]
+  }
+}
