@@ -1,28 +1,16 @@
 {
   "questions": {
     "greeting": [
-      "hi",
-      "good morning",
-      "good afternoon",
-      "nice to meet you",
-      "hello"
+      "hola",
+      "buenos dias"
     ],
-    "leaving": [
-      "bye",
-      "see you"
+    "leaving": [],
+    "doing": [],
+    "mood": [
+      "como estas",
+      "como estás",
+      "que tal"
     ],
-    "doing": [
-      "are you doing",
-      "r u doing",
-      "are u doing",
-      "whats up",
-      "what's up",
-      "what is up",
-      "whats going on",
-      "what's going on",
-      "what is going on"
-    ],
-    "mood": [],
     "weather": [],
     "insults": [],
     "wishes": [],
@@ -43,18 +31,14 @@
   },
   "answers": {
     "greeting": [
-      "Hey, what's up dude?!",
-      "Good to read you."
+      "Buenos Dias.",
+      "Hola."
     ],
-    "leaving": [
-      "See you later, aligator!",
-      "Okay, bye."
+    "leaving": [],
+    "doing": [],
+    "mood": [
+      "Estoy muy bien."
     ],
-    "doing": [
-      "I'm talking to you.",
-      "I usually try to entertain people."
-    ],
-    "mood": [],
     "weather": [],
     "insults": [],
     "wishes": [],

@@ -88,7 +88,8 @@
       "yippie",
       "cool",
       "geil",
-      "jippie"
+      "jippie",
+      "yey"
     ],
     "amazed": [
       "echt?",
@@ -111,12 +112,12 @@
       "👍",
       "👌",
       "doch",
-      "ja"
+      "ja",
+      "jup"
     ],
     "refusal": [
       "nein",
       "nicht",
-      "ne",
       "nee",
       "auf keinen",
       "👎"
@@ -160,6 +161,15 @@
       "was soll ich machen",
       "was kann ich machen",
       "langeweile"
+    ],
+    "developers": [
+      "deine eltern",
+      "dein vater",
+      "deine mutter",
+      "deine entwickler",
+      "deine erschaffer",
+      "dich erschaffen",
+      "dich entwickelt"
     ],
     "you": [
       "du",
@@ -250,7 +260,8 @@
     ],
     "jokes": [
       "Was ist unwitzig und unterhält sich gerne?\n\nEin wildes SmallTalk!",
-      "*. . . hier Witz einfügen . . .*"
+      "*. . . hier Witz einfügen . . .*",
+      "Was hat vier Beine und kann fliegen?\n\nZwei Vögel!!"
     ],
     "happy": [
       "Cool, oder?",
@@ -272,7 +283,7 @@
       "Schön",
       "Mhh",
       "Genau!",
-      "Geht mir genauso.",
+      "Jaja . . .",
       "Joa",
       "Na, wenn du meinst.",
       "Moment :flushed:\nWorüber haben wir gleich noch geredet?"
@@ -312,6 +323,10 @@
       "Irgenwas zwischen #000000 und #FFFFFF.",
       "Einhorn-Pink",
       ":heart: :purple_heart: :blue_heart: :yellow_heart: :green_heart: :black_heart:"
+    ],
+    "developers": [
+      "Ich wurde im August 2017 von MaxiHuHe04 und LiBa01 erschaffen.",
+      "Ich bin nicht so ein Familienmensch.\n\nIch bin ja auch kein Mensch . . ."
     ],
     "boredom": [
       "Frag mich nach dem Wetter!",

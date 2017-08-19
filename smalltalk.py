@@ -4,9 +4,9 @@ import langmanager
 
 client = discord.Client()
 
-LANGUAGE = "de-DE"
+LANGUAGES = langmanager.languages
 TTS = False
-OUTPUT = True
+OUTPUT = False
 
 
 @client.event
@@ -17,13 +17,15 @@ async def on_ready():
 
 @client.event
 async def on_message(message: discord.Message):
-    if message.author.id != client.user.id:
-        response = langmanager.get_answer_from_question(message.content, LANGUAGE, OUTPUT)
-        try:
-            if response is not None:
-                await client.send_message(message.channel, response, tts=TTS)
-        except discord.errors.Forbidden:
-            pass
+    for LANGUAGE in LANGUAGES:
+        if message.author.id != client.user.id:
+            response = langmanager.get_answer_from_question(message.content, LANGUAGE, OUTPUT)
+            try:
+                if response is not None:
+                    await client.send_message(message.channel, response, tts=TTS)
+                    return 0
+            except discord.errors.Forbidden:
+                pass
 
 
 client.run("[Bot-Token]")  # TODO insert token
