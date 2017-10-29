@@ -34,11 +34,6 @@ async def on_message(message: discord.Message):
     channels_str = sqlib.servers.get(message.server.id, 'channels')[0]
     channels_dict = json.loads(channels_str)
 
-    if channels_dict[message.channel.id] == 2:
-        TTS = True
-    else:
-        TTS = False
-
     content = message.content.split(' ')
     if len(content) > 1:
         content = content[1]
@@ -51,6 +46,7 @@ async def on_message(message: discord.Message):
             TTS = True
         else:
             channels_dict[message.channel.id] = 1
+            TTS = False
         channels_str = json.dumps(channels_dict)
         sqlib.servers.update(message.server.id, {'channels': channels_str})
         await client.send_message(message.channel,
@@ -65,6 +61,7 @@ async def on_message(message: discord.Message):
             await client.send_message(message.channel, "TTS OFF")
         elif channels_dict[message.channel.id] >= 1:
             channels_dict[message.channel.id] = 0
+            TTS = False
             await client.send_message(message.channel,
                                       langmanager.random_topic_answer('leaving', LANGUAGES[0]),
                                       tts=TTS)
@@ -97,6 +94,11 @@ async def on_message(message: discord.Message):
         channels_dict[message.channel.id] = 0
         channels_str = json.dumps(channels_dict)
         sqlib.servers.update(message.server.id, {'channels': channels_str})
+    
+    if channels_dict[message.channel.id] == 2:
+        TTS = True
+    else:
+        TTS = False
 
     if channels_dict[message.channel.id] >= 1:
         for LANGUAGE in LANGUAGES:
