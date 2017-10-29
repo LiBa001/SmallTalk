@@ -81,13 +81,13 @@ async def on_message(message: discord.Message):
         help_msg.add_field(
             name=prefix + 'start',
             value="Starts the conversation.\n"
-                  f"Type: `{prefix}start TTS` to activate text to speech.\n"
-                  "Mind that the bot needs the permissions to do so."
+                  "Type: `{prefix}start TTS` to activate text to speech.\n"
+                  "Mind that the bot needs the permissions to do so.".format(prefix=prefix)
         )
         help_msg.add_field(
             name=prefix + 'stop',
             value="Ends the conversation.\n"
-                  f"Type: '{prefix}stop TTS' to only deactivate text to speech.\n"
+                  "Type: '{prefix}stop TTS' to only deactivate text to speech.\n".format(prefix=prefix)
         )
 
         await client.send_message(message.channel, embed=help_msg)
