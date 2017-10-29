@@ -40,6 +40,16 @@ async def on_message(message: discord.Message):
     else:
         content = content[0]
 
+    if message.channel.id not in channels_dict:
+        channels_dict[message.channel.id] = 0
+        channels_str = json.dumps(channels_dict)
+        sqlib.servers.update(message.server.id, {'channels': channels_str})
+
+    if channels_dict[message.channel.id] == 2:
+        TTS = True
+    else:
+        TTS = False
+
     if message.content.startswith(prefix + 'start'):
         if content.lower() == 'tts':
             channels_dict[message.channel.id] = 2
@@ -84,21 +94,11 @@ async def on_message(message: discord.Message):
         help_msg.add_field(
             name=prefix + 'stop',
             value="Ends the conversation.\n"
-                  "Type: '{prefix}stop TTS' to only deactivate text to speech.\n".format(prefix=prefix)
+                  "Type: `{prefix}stop TTS` to only deactivate text to speech.\n".format(prefix=prefix)
         )
 
         await client.send_message(message.channel, embed=help_msg)
         return 0
-
-    elif message.channel.id not in channels_dict:
-        channels_dict[message.channel.id] = 0
-        channels_str = json.dumps(channels_dict)
-        sqlib.servers.update(message.server.id, {'channels': channels_str})
-    
-    if channels_dict[message.channel.id] == 2:
-        TTS = True
-    else:
-        TTS = False
 
     if channels_dict[message.channel.id] >= 1:
         for LANGUAGE in LANGUAGES:
