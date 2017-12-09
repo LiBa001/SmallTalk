@@ -2,6 +2,7 @@ import discord
 import sqlib
 import langmanager
 import json
+import time
 
 client = discord.Client()
 
