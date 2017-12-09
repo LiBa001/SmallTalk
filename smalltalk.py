@@ -59,9 +59,9 @@ async def on_message(message: discord.Message):
             TTS = False
         channels_str = json.dumps(channels_dict)
         sqlib.servers.update(message.server.id, {'channels': channels_str})
-        await client.send_message(message.channel,
-                                  langmanager.random_topic_answer('greetings', LANGUAGES[0]),
-                                  tts=TTS)
+        await client.send_message(message.channel, "<@381377342276370463> hallo")
+        time.sleep(2)
+        await client.send_message(message.channel, "SmallTalk")
         return 0
 
     elif message.content.startswith(prefix + 'stop'):
